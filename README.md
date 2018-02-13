@@ -7,6 +7,6 @@ You can configure the module with this options:
 * Related Article Title
 * Related Article Image (Intro or Full)
 * Image Link
-* Select Framework:
+* Select Frontend Framework:
   * Bootstrap 2
   * Bootstrap 3
