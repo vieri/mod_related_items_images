@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="module" version="1.0.0" client="site" method="upgrade">
-	<name>mod_related_items_images</name>
+	<name>MOD_RELATED_ITEMS_IMAGES</name>
 	<author>Jordi Sorts</author>
 	<creationDate>Feb 2018</creationDate>
 	<copyright>Copyright (C) 2018 - All rights reserved.</copyright>
