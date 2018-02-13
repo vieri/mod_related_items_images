@@ -23,7 +23,7 @@ switch($params->get('count'))
 
 <div class="row <?php echo $moduleclass_sfx; ?>">
 	<?php foreach ($items as $item) : ?>
-		<div class="span?php echo $colum; ?>" itemscope itemtype="https://schema.org/Article">
+		<div class="span<?php echo $colum; ?>" itemscope itemtype="https://schema.org/Article">
 			<?php if($params->get('show_image') != 'off'): ?>
                 <?php
                 $images = json_decode($item->images);
