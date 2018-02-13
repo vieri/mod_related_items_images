@@ -27,6 +27,10 @@ if (!count($items))
 }
 
 $moduleclass_sfx = htmlspecialchars($params->get('moduleclass_sfx'), ENT_COMPAT, 'UTF-8');
-$showDate        = $params->get('showDate', 0);
+$layout = $params->get('framework', 'default');
+switch((int)$params->get('templateframework', 1))
+{
+    case 2: $layout .= '_bootstrap2'; break;
+}
 
 require JModuleHelper::getLayoutPath('mod_related_items_images', $params->get('layout', 'default'));

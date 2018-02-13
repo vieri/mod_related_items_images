@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension type="module" version="1.0.0" client="site" method="upgrade">
+<extension type="module" version="1.1.0" client="site" method="upgrade">
 	<name>MOD_RELATED_ITEMS_IMAGES</name>
 	<author>Jordi Sorts</author>
 	<creationDate>Feb 2018</creationDate>
@@ -7,7 +7,7 @@
 	<license>GNU General Public License version 2.0</license>
 	<authorEmail>info@websdefutbol.com</authorEmail>
 	<authorUrl>www.websdefutbol.com</authorUrl>
-	<version>1.0.0</version>
+	<version>1.1.0</version>
 	<description>MOD_RELATED_ITEMS_IMAGES_XML_DESCRIPTION</description>
 	<files>
 		<filename module="mod_related_items_images">mod_related_items_images.php</filename>
@@ -72,6 +72,19 @@
 					<option value="1">JYES</option>
 					<option value="0">JNO</option>
 				</field>
+
+				<field type="spacer" name="spacer2" hr="true" />
+
+				<field
+					name="framework"
+					type="list"
+					label="MOD_RELATED_ITEMS_IMAGES_FIELD_FRAMEWORK_LABEL"
+					description="MOD_RELATED_ITEMS_IMAGES_FIELD_FRAMEWORK_DESC"
+					default="1"
+					>
+					<option value="1">Bootstrap 3</option>
+					<option value="2">Bootstrap 2</option>
+				</field>
 			</fieldset>
 			<fieldset name="advanced">
 				<field
@@ -110,4 +123,7 @@
 			</fieldset>
 		</fields>
 	</config>
+	<updateservers>
+  <server type="extension" name="Custom Thumbnails">https://sergiois.github.io/custom-thumbnails.xml</server>
+</updateservers>
 </extension>
