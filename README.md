@@ -1,2 +1,9 @@
 # mod_related_items_images
-This module is a version of core Joomla! module, with this module you can show images (intro or full) on Related Articles.
+
+Joomla! Related articles with images
+
+You can configure the module with this options:
+
+* Related Article Title
+* Related Article Image (Intro or Full)
+* Image Link
