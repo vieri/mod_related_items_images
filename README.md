@@ -1,6 +1,6 @@
 # mod_related_items_images
 
-Joomla! Related articles with images
+Joomla! Related Articles with Images
 
 You can configure the module with this options:
 
