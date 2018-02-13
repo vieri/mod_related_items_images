@@ -124,6 +124,6 @@
 		</fields>
 	</config>
 	<updateservers>
-  <server type="extension" name="Related Articles Images">https://vieri.github.io/mod_related_items_images.xml</server>
-</updateservers>
+  		<server type="extension" name="Related Articles Images">https://vieri.github.io/mod_related_items_images.xml</server>
+	</updateservers>
 </extension>
