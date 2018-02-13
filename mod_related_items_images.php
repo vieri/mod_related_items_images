@@ -27,8 +27,8 @@ if (!count($items))
 }
 
 $moduleclass_sfx = htmlspecialchars($params->get('moduleclass_sfx'), ENT_COMPAT, 'UTF-8');
-$layout = $params->get('framework', 'default');
-switch((int)$params->get('templateframework', 1))
+$layout = $params->get('layout', 'default');
+switch((int)$params->get('framework', 1))
 {
     case 2: $layout .= '_bootstrap2'; break;
 }
